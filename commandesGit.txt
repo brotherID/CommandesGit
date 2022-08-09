@@ -1,0 +1,18 @@
+git init
+git remote add origin <adresse ssh>
+git status
+git checkout -b dev
+git add .
+git commit -m "first commit"
+git push --set-upstream origin dev
+*****************************************
+git branch
+git remote set-url origin <adresse ssh> : si l'adresse a changé  
+*****************************************
+git remote -v -> afficher l'adresse de l'origine (ssh or https)
+*****************************************
+creation de key ssh:
+ssh-keygen -t rsa
+ssh -T git@gitlab.procheck.ma
+start-ssh-agent
+*****************************************
